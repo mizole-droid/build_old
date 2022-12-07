@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    Bromite \
+    Bromite \ # May be apk name here.
     Browser2 \
     Calendar \
     Contacts \
