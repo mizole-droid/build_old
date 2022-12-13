@@ -824,8 +824,6 @@ function lunch()
     set_stuff_for_environment
     [[ -n "${ANDROID_QUIET_BUILD:-}" ]] || printconfig
     destroy_build_var_cache
-    
-    . ${ANDROID_BUILD_TOP}/vendor/lineage/build/tools/fetch_bromite.sh $(get_build_var TARGET_ARCH)
 
     if [[ -n "${CHECK_MU_CONFIG:-}" ]]; then
       check_mu_config
