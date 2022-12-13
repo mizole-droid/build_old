@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     OneTimeInitializer \
     preinstalled-packages-platform-handheld-product.xml \
     SettingsIntelligence \
-    frameworks-base-overlays
+    frameworks-base-overlays \
+    TrichromeChrome
 
 ifeq ($(LINEAGE_BUILD),)
 PRODUCT_PACKAGES += \
